@@ -5,7 +5,7 @@
     'name': 'Droggol Theme Common',
     'description': 'Droggol Theme Common',
     'category': 'eCommerce',
-    'version': '14.0.0.2.2',
+    'version': '15.0.0',
     'depends': [
         'sale_product_configurator',
         'website_sale_comparison',
@@ -26,7 +26,7 @@
     'data': [
         'security/ir.model.access.csv',
         'data/groups.xml',
-        'views/assets.xml',
+        #'views/assets.xml',
         'views/backend_templates.xml',
         'views/dr_config_template.xml',
 
@@ -45,6 +45,16 @@
         'views/backend/category_label.xml',
         'views/backend/product_category.xml',
     ],
+    'assets': {
+        'web.assets_frontend': [
+            'droggol_theme_common/static/src/scss/variants.scss' 
+        ],
+        'web.assets_backend': [
+            'droggol_theme_common/static/src/js/backend/list_view_brand.js',
+            'droggol_theme_common/static/src/js/backend/res_config_settings.js',
+            'droggol_theme_common/static/src/scss/variants.scss'
+        ],
+    },
     'qweb': [
         'static/src/xml/backend/list_view_brand.xml',
     ],

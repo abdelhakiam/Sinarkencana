@@ -331,7 +331,7 @@ este módulo calcula comissão de vendas na fatura, Comissão de vendas baseada 
     "website" : "https://www.browseinfo.in",
     "price": 40,
     "currency": 'EUR',
-    "depends" : ['base', 'point_of_sale', 'sales_commission_generic'],
+    "depends" : ['base', 'stock', 'point_of_sale', 'sales_commission_generic'],
     "data" :[
              'views/pos_view.xml'
             ],

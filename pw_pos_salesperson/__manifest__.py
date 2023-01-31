@@ -15,16 +15,16 @@
 - Odoo POS product salesperson
     """,
     'data': [
-        #'views/pos_assets.xml',
+        'views/pos_assets.xml',
         'views/pos_config_view.xml',
     ],
-    'assets': {
-        'web.assets_frontend': [
-            'pw_pos_salesperson/static/src/js/models.js',
-            'pw_pos_salesperson/static/src/js/SalespersonButton.js',
-            'pw_pos_salesperson/static/src/js/Orderline.js'
-        ],
-    },
+    # 'assets': {
+    #     'web.assets_frontend': [
+    #         'pw_pos_salesperson/static/src/js/models.js',
+    #         'pw_pos_salesperson/static/src/js/SalespersonButton.js',
+    #         'pw_pos_salesperson/static/src/js/Orderline.js'
+    #     ],
+    # },
     'qweb': ['static/src/xml/pos.xml'],
     'price': 25.0,
     'currency': "EUR",

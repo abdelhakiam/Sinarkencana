@@ -1,3 +1,3 @@
 # Sinarkencana
 
-Upgrading from Odoo 14 to Odoo 16
+Rollback to 14

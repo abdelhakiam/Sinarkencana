@@ -4,7 +4,7 @@
     'version': '16.0',
     'author': 'Preway IT Solutions',
     'category': 'Point of Sale',
-    'depends': ['point_of_sale', 'stock', 'hr'],
+    'depends': ['point_of_sale', 'hr'],
     'summary': 'This apps helps you set salesperson on pos orderline from pos interface | POS Orderline User | Assign Sales Person on POS | POS Sales Person',
     'description': """
 - Odoo POS Orderline user

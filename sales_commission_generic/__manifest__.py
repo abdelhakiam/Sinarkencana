@@ -287,7 +287,7 @@ este módulo calcula comissão de vendas na fatura, Comissão de vendas baseada 
     "website" : "https://www.browseinfo.in",
     "price": 69,
     "currency": 'EUR',
-    "depends" : ['base' , 'stock', 'sale', 'sale_management', 'sale_stock', 'sale_margin'],
+    "depends" : ['base', 'sale', 'sale_management', 'sale_stock', 'sale_margin'],
     "data" :[
         'security/sales_commission_security.xml',
         'security/ir.model.access.csv',

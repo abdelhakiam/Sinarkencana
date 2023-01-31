@@ -29,7 +29,7 @@
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
     'website': "https://www.openhrms.com",
-    'depends': ['hr', 'stock', 'point_of_sale'],
+    'depends': ['hr', 'point_of_sale'],
     'external_dependencies': {
         'python': ['pandas'],
     },

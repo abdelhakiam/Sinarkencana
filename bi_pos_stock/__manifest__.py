@@ -45,19 +45,19 @@
     """,
     "website" : "https://www.browseinfo.in",
     "data": [
-        'views/assets.xml',
+        #'views/assets.xml',
         'views/custom_pos_config_view.xml',
     ],
-    # 'assets': {
-    #     'web.assets_frontend': [
-    #         'bi_pos_stock/static/src/js/Chrome.js',
-    #         'bi_pos_stock/static/src/js/SyncStock.js',
-    #         'bi_pos_stock/static/src/js/models.js',
-    #         'bi_pos_stock/static/src/js/Screens/ProductScreen.js',
-    #         'bi_pos_stock/static/src/js/Screens/ProductsWidget.js',
-    #         'bi_pos_stock/static/src/js/Screens/ReceiptScreen.js'
-    #     ],
-    # },
+    'assets': {
+        'web.assets_frontend': [
+            'bi_pos_stock/static/src/js/Chrome.js',
+            'bi_pos_stock/static/src/js/SyncStock.js',
+            'bi_pos_stock/static/src/js/models.js',
+            'bi_pos_stock/static/src/js/Screens/ProductScreen.js',
+            'bi_pos_stock/static/src/js/Screens/ProductsWidget.js',
+            'bi_pos_stock/static/src/js/Screens/ReceiptScreen.js'
+        ],
+    },
     'qweb': [
         'static/src/xml/bi_pos_stock.xml',
     ],

@@ -7,6 +7,7 @@
     'category': 'eCommerce',
     'version': '16.0.0',
     'depends': [
+        'stock',
         'sale_product_configurator',
         'website_sale_comparison',
         'website_sale_wishlist',

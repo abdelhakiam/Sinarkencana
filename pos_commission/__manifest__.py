@@ -3,7 +3,7 @@
 
 {
     "name" : "Commission for POS and Sales based on Order/Invoice/Payment in Odoo",
-    "version" : "16.0.0.0",
+    "version" : "15.0.0.0",
     "category" : "Point of Sale",
     "summary" : "Commission for POS commission point of sale commission based on invoice commission for point of sales commission margin based commission for product margin commissions for sales person commission for partner Sales Agent commission Sales Commission for User",
     "description": """

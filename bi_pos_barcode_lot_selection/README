@@ -1,6 +1,0 @@
-
-Version 14.0.0.1 : (09-06-21)
-		- Update validation for lot product ,Now user can sold only avaialble quantity.
-
-Version 14.0.0.2 : (11-06-21)
-		- calculate lot quantity based on location,and show it in selection popup and also used it in validation.

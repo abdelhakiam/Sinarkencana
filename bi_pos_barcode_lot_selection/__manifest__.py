@@ -11,7 +11,12 @@
 	"website" : "https://www.browseinfo.in",
 	"price": 49,
 	"currency": 'EUR',
-	"depends" : ['base','product_expiry','point_of_sale'],
+	"depends" : [
+        'base'
+        'product_expiry',
+        'point_of_sale',
+        'sale_stock',
+    ],
 	"data": [
 		'report/product_label.xml',
 		'views/assets.xml',

@@ -15,6 +15,7 @@
         'base',
         'product_expiry',
         'point_of_sale',
+        'stock',
         'sale_stock',
     ],
 	"data": [

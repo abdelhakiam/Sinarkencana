@@ -20,9 +20,19 @@
     ],
 	"data": [
 		'report/product_label.xml',
-		'views/assets.xml',
+		#'views/assets.xml',
 		'views/product_view.xml',
 	],
+    'assets': {
+        'web.assets_backend': [
+            '/bi_pos_barcode_lot_selection/static/src/css/pos.css',
+            '/bi_pos_barcode_lot_selection/static/src/js/models.js',
+            '/bi_pos_barcode_lot_selection/static/src/js/Popups/EditListPopup.js',
+            '/bi_pos_barcode_lot_selection/static/src/js/Screens/OrderWidget.js',
+            '/bi_pos_barcode_lot_selection/static/src/js/Screens/ProductScreen.js',
+            '/bi_pos_barcode_lot_selection/static/src/js/Screens/ReceiptScreen.js'
+        ]
+    },
 	'qweb': [
 		'static/src/xml/pos.xml',
 	],

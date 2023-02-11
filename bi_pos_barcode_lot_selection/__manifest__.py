@@ -14,7 +14,7 @@
 	"depends" : [
         'base'
         'product_expiry',
-        'baseproduct_expiry',
+        #'baseproduct_expiry',
         'point_of_sale',
         'sale_stock',
     ],

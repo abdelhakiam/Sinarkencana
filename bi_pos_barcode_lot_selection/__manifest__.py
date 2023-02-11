@@ -12,9 +12,8 @@
 	"price": 49,
 	"currency": 'EUR',
 	"depends" : [
-        'base'
+        'base',
         'product_expiry',
-        #'baseproduct_expiry',
         'point_of_sale',
         'sale_stock',
     ],

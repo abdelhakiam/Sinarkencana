@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'POS Salesperson',
-    'version': '14.0',
+    'version': '15.0',
     'author': 'Preway IT Solutions',
     'category': 'Point of Sale',
     'depends': ['point_of_sale', 'hr'],

@@ -26,6 +26,7 @@
     'description': """POS Dashboard""",
     'category': 'Point of Sale',
     'author': 'Cybrosys Techno Solutions',
+    'license': 'OPL-1',
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
     'website': "https://www.openhrms.com",

@@ -6,6 +6,7 @@
     "name" : "POS Stock in Odoo",
     "version" : "15.0.0.0",
     "category" : "Point of Sale",
+    "license": "OPL-1",
     "depends" : ['base','sale_management','stock','point_of_sale'],
     "author": "BrowseInfo",
     'summary': 'Display POS Stock Quantity on POS screen stock Product stock in POS product stock orders POS Order stock POS Mobile POS Inventory Management pos stocks pos item stock point of sale stock POS Product Warehouse Quantity pos product qty pos product stock Quantity pos product Quantity',

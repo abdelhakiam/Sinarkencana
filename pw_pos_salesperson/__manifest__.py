@@ -26,7 +26,7 @@
             '/pw_pos_salesperson/static/src/js/Orderline.js'
         ],
         'web.assets_qweb': [
-            'static/src/xml/pos.xml'
+            '/pw_pos_salesperson/static/src/xml/pos.xml'
         ]
     },
     #'qweb': ['static/src/xml/pos.xml'],

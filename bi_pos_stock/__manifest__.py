@@ -59,7 +59,7 @@
             '/bi_pos_stock/static/src/js/Screens/ReceiptScreen.js',
         ],
         'web.assets_qweb': [
-            'static/src/xml/bi_pos_stock.xml'
+            '/bi_pos_stock/static/src/xml/bi_pos_stock.xml'
         ],
     },
     # 'qweb': [

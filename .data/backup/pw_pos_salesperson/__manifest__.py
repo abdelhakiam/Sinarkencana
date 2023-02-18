@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'POS Salesperson',
-    'version': '16.0',
+    'version': '15.0',
     'author': 'Preway IT Solutions',
     'category': 'Point of Sale',
     'depends': ['point_of_sale', 'hr'],
+    'license': 'OPL-1',
     'summary': 'This apps helps you set salesperson on pos orderline from pos interface | POS Orderline User | Assign Sales Person on POS | POS Sales Person',
     'description': """
 - Odoo POS Orderline user
@@ -19,11 +20,11 @@
         'views/pos_config_view.xml',
     ],
     'assets': {
-        'web.assets_frontend': [
-            'pw_pos_salesperson/static/src/js/models.js',
-            'pw_pos_salesperson/static/src/js/SalespersonButton.js',
-            'pw_pos_salesperson/static/src/js/Orderline.js'
-        ],
+        'web.assets_backend': [
+            '/pw_pos_salesperson/static/src/js/models.js',
+            '/pw_pos_salesperson/static/src/js/SalespersonButton.js',
+            '/pw_pos_salesperson/static/src/js/Orderline.js'
+        ]
     },
     'qweb': ['static/src/xml/pos.xml'],
     'price': 25.0,

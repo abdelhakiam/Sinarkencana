@@ -26,6 +26,7 @@
     'description': """POS Dashboard""",
     'category': 'Point of Sale',
     'author': 'Cybrosys Techno Solutions',
+    'license': 'OPL-1',
     'company': 'Cybrosys Techno Solutions',
     'maintainer': 'Cybrosys Techno Solutions',
     'website': "https://www.openhrms.com",
@@ -38,11 +39,16 @@
     ],
     'assets': {
         'web.assets_backend': [
-            'dashboard_pos/static/src/js/pos_dashboard.js',
-            'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js'
-        ]
+            '/dashboard_pos/static/src/js/pos_dashboard.js',
+            '/dashboard_pos/static/src/css/pos_dashboard.css',
+            '/dashboard_pos/static/src/js/pos_dashboard.js',
+            'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js', 
+        ],
+        'web.assets_qweb': [
+            '/dashboard_pos/static/src/xml/pos_dashboard.xml',
+        ],
     },
-    'qweb': ["static/src/xml/pos_dashboard.xml"],
+    #'qweb': ["static/src/xml/pos_dashboard.xml"],
     'images': ['static/description/banner.png'],
     'license': "AGPL-3",
     'installable': True,

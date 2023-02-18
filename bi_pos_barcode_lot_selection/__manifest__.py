@@ -32,11 +32,14 @@
             '/bi_pos_barcode_lot_selection/static/src/js/Screens/OrderWidget.js',
             '/bi_pos_barcode_lot_selection/static/src/js/Screens/ProductScreen.js',
             '/bi_pos_barcode_lot_selection/static/src/js/Screens/ReceiptScreen.js'
-        ]
+        ],
+        'web.assets_qweb': [
+            'static/src/xml/pos.xml'
+        ],
     },
-	'qweb': [
-		'static/src/xml/pos.xml',
-	],
+	# 'qweb': [
+	# 	'static/src/xml/pos.xml',
+	# ],
 	"auto_install": False,
 	"installable": True,
 	"live_test_url":'https://youtu.be/LHwVmXe4Yt8',

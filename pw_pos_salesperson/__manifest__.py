@@ -24,9 +24,12 @@
             '/pw_pos_salesperson/static/src/js/models.js',
             '/pw_pos_salesperson/static/src/js/SalespersonButton.js',
             '/pw_pos_salesperson/static/src/js/Orderline.js'
+        ],
+        'web.assets_qweb': [
+            'static/src/xml/pos.xml'
         ]
     },
-    'qweb': ['static/src/xml/pos.xml'],
+    #'qweb': ['static/src/xml/pos.xml'],
     'price': 25.0,
     'currency': "EUR",
     'application': True,

@@ -57,11 +57,14 @@
             '/bi_pos_stock/static/src/js/Screens/ProductScreen.js',
             '/bi_pos_stock/static/src/js/Screens/ProductsWidget.js',
             '/bi_pos_stock/static/src/js/Screens/ReceiptScreen.js',
-        ]
+        ],
+        'web.assets_qweb': [
+            'static/src/xml/bi_pos_stock.xml'
+        ],
     },
-    'qweb': [
-        'static/src/xml/bi_pos_stock.xml',
-    ],
+    # 'qweb': [
+    #     'static/src/xml/bi_pos_stock.xml',
+    # ],
     "auto_install": False,
     "installable": True,
     "live_test_url":'https://youtu.be/X1GSrJl9iWY',

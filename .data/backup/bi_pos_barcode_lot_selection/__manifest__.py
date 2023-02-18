@@ -34,7 +34,7 @@
             '/bi_pos_barcode_lot_selection/static/src/js/Screens/ReceiptScreen.js'
         ],
         'web.assets_qweb': [
-            'static/src/xml/pos.xml'
+            '/bi_pos_barcode_lot_selection/static/src/xml/pos.xml'
         ],
     },
 	# 'qweb': [

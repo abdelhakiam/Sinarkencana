@@ -41,7 +41,9 @@
         'web.assets_backend': [
             '/dashboard_pos/static/src/js/pos_dashboard.js',
             '/dashboard_pos/static/src/css/pos_dashboard.css',
-            'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js'
+            '/dashboard_pos/static/src/js/pos_dashboard.js',
+            '/dashboard_pos/static/src/xml/pos_dashboard.xml',
+            'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js', 
         ]
     },
     'qweb': ["static/src/xml/pos_dashboard.xml"],

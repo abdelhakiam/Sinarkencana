@@ -42,11 +42,13 @@
             '/dashboard_pos/static/src/js/pos_dashboard.js',
             '/dashboard_pos/static/src/css/pos_dashboard.css',
             '/dashboard_pos/static/src/js/pos_dashboard.js',
-            '/dashboard_pos/static/src/xml/pos_dashboard.xml',
             'https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.js', 
-        ]
+        ],
+        'web.assets_qweb': [
+            '/dashboard_pos/static/src/xml/pos_dashboard.xml',
+        ],
     },
-    'qweb': ["static/src/xml/pos_dashboard.xml"],
+    #'qweb': ["static/src/xml/pos_dashboard.xml"],
     'images': ['static/description/banner.png'],
     'license': "AGPL-3",
     'installable': True,
